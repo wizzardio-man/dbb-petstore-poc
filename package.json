@@ -1,0 +1,20 @@
+{
+  "name": "bdd-petstore-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.6.7",
+    "got": "^14.2.0",
+    "jest-cucumber": "^3.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1"
+  }
+}
