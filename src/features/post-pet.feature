@@ -15,7 +15,6 @@ Scenario: Request with Empty Body
 Scenario Outline: Request with incorrect data type
     Given I have a body with incorrect data type <Value_Type> for field <Field>
     When I send a POST request to API endpoint
-    # Then the response status code should be 425
     And the response body should contain an error message indicating incorrect data type
 
     Examples:
