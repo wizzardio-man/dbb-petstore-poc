@@ -9,7 +9,7 @@ This is a simple POC for the /POST method testing approach for the pet store API
 - JS as a main programming language
 - cucumber and jest as a test skeleton
 - jest-cucumber library for running and as a main tool
-- github actions for possible CI/CD integration
+- github actions
 - axios for API requests
 
 
