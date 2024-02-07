@@ -43,4 +43,10 @@ These are the things I've noticed during work and I need to clarify them as a QA
 
 4. Also, I was able to use simple SQL injections in the fields. (But I guess the service is not using any DB under the hood so it's expected);
 
-5. When I try to use XML body, I do not receive the same response as when I try to use JSON body (see the last test)
+5. When I try to use XML body, I do not receive the same response as when I try to use JSON body (see the last test);
+
+### Answering these questions will allow me to create additional tests:
+1. Authentication;
+2. Fields validation (value and type);
+3. Error handling;
+4. Non-functional testing (performance, security, etc);
